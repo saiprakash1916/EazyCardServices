@@ -6,15 +6,15 @@ import lombok.Data;
 public class CardsDto {
     private Long card_Id;
 
-    private String mobile_number;
+    private String mobileNumber;
 
-    private String card_number;
+    private String cardNumber;
 
-    private String card_type;
+    private String cardType;
 
-    private int total_limit;
+    private int totalLimit;
 
-    private int amount_used;
+    private int amountUsed;
 
-    private int available_amount;
+    private int availableAmount;
 }
